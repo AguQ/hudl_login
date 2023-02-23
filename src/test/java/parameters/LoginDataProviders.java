@@ -14,7 +14,7 @@ public class LoginDataProviders {
 
     @DataProvider(name = "InvalidLoginCredentials")
     public static Object[][] invalidLoginDataProvider() {
-        return new Object[][]{{"wrongemail@gmail.com", "qwerty12345"}, {"aguq1984@gmail.com", "invalidpassword"}, {"", ""}};
+        return new Object[][]{{"wrongemail@gmail.com", "qwerty12345"}, {USER_EMAIL, "invalidpassword"}, {"", ""}};
     }
 
     @DataProvider(name = "InvalidSSOLoginCredentials")
